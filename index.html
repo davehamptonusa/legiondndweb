@@ -104,7 +104,10 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-dave.jpg" class="img-fluid" alt="">
+            <div class="cocoen">
+              <img src="assets/img/dave-before.jpg" alt="">
+              <img src="assets/img/profile-dave.jpg" class="img-fluid" alt="">
+            </div>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h4>About Me</h4>
@@ -1023,6 +1026,11 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
+  <!-- Turns all `.cocoen` elements into Cocoens -->
+  <script>
+    Cocoen.create(document.querySelector('.cocoen'),{start:20, color:"#c02e07"});
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
