@@ -78,7 +78,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>LEGION DND</h1>
-      <p>The More You <span class="typed" data-typed-items="Roll, Role, Laugh, Live, Love, Love Playing DND"></span></p>
+      <p>The More You <span class="typed" data-typed-items="Roll, Role, Troll, Gnoll, Bowl?, Laugh, Live, Love"></span></p>
     </div>
   </section>
   <!-- End Hero -->
@@ -285,7 +285,10 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="" class="img-fluid" alt="">
+            <div class="cocoen">
+              <img src="assets/img/baxter-before.jpg" alt="">
+              <img src="assets/img/baxter-after.jpg" class="img-fluid" alt="">
+            </div>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h4>About Me</h4>
@@ -355,7 +358,10 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/mandy.jpg" class="img-fluid" alt="">
+            <div class="cocoen">
+              <img src="assets/img/mandy-before.jpg" alt="">
+              <img src="assets/img/mandy-after.jpg" class="img-fluid" alt="">
+            </div>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h4>About Me</h4>
@@ -1029,7 +1035,9 @@
   <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
   <!-- Turns all `.cocoen` elements into Cocoens -->
   <script>
-    Cocoen.create(document.querySelector('.cocoen'),{start:20, color:"#c02e07"});
+    document.querySelectorAll('.cocoen').forEach( it  => {
+      Cocoen.create(it,{start:10, color:"#c02e07"});
+    });
   </script>
 
   <!-- Template Main JS File -->
