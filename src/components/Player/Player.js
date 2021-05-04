@@ -25,7 +25,7 @@ const Player = ({ player:
   } 
 }) => (
   <div className={styles.Player} data-testid="Player">
-    <section id={pageLink} className="about section-bg">
+    <section id={pageLink} className="about">
       <div className="container" >
         <div className="section-title">
           <h2>{name}</h2>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import styles from './Whole.module.scss';
 import Header from '../Header/Header';
 import Player from '../Player/Player';
@@ -26,7 +26,7 @@ class Whole extends Component {
   }
   render () {
     return(
-      <div className={"styles.Whole"} data-testid="Whole">
+      <div className="styles.Whole" data-testid="Whole">
         <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
         <Header data={data}/>
     
@@ -154,7 +154,7 @@ class Whole extends Component {
       </div>
       <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
         <div className="icon"><i className="fas fa-sitemap"></i></div>
-        <h4 className="title"><a href="">Website</a></h4>
+        <h4 className="title"><a href="#d">Website</a></h4>
         <p className="description">Visit this Website to end up right back here again!</p>
       </div>
     </div>
@@ -261,7 +261,7 @@ class Whole extends Component {
 </div>
 </footer>
 
-<a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+<a href="#d" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
 
 </div>

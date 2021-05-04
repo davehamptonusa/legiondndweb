@@ -1,4 +1,4 @@
-export default {
+const data = {
     "links": [
         {
             "href": "https://twitch.tv/legiondnd",
@@ -420,4 +420,6 @@ export default {
             }
         }
     }
-}
+};
+
+export default data;
