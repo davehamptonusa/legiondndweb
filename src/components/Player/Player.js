@@ -59,7 +59,7 @@ const Player = ({ player:
           <Facts facts={facts} />
       </div>
     </section>
-    <section className="skills">
+    <section className="skills section-bg">
        <Scores scores={scores} />
     </section>
   </div>

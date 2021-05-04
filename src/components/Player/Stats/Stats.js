@@ -18,7 +18,7 @@ const Stats = ({ stats }) => (
       </div>
       <div className="col-lg-6">
         <ul>
-        {stats.slice(3,7).map((stat, index) => (
+        {stats.slice(4,8).map((stat, index) => (
           <Stat stat={stat} key={index} />
         ))}
         </ul>
