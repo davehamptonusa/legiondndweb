@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/legiondndweb/static/css/main.ed7f6f25.chunk.css",
+    "main.js": "/legiondndweb/static/js/main.b4f978dd.chunk.js",
+    "main.js.map": "/legiondndweb/static/js/main.b4f978dd.chunk.js.map",
+    "runtime-main.js": "/legiondndweb/static/js/runtime-main.2c246cf9.js",
+    "runtime-main.js.map": "/legiondndweb/static/js/runtime-main.2c246cf9.js.map",
+    "static/css/2.cc5dc1cf.chunk.css": "/legiondndweb/static/css/2.cc5dc1cf.chunk.css",
+    "static/js/2.7beb19fd.chunk.js": "/legiondndweb/static/js/2.7beb19fd.chunk.js",
+    "static/js/2.7beb19fd.chunk.js.map": "/legiondndweb/static/js/2.7beb19fd.chunk.js.map",
+    "static/js/3.57569a9e.chunk.js": "/legiondndweb/static/js/3.57569a9e.chunk.js",
+    "static/js/3.57569a9e.chunk.js.map": "/legiondndweb/static/js/3.57569a9e.chunk.js.map",
+    "static/js/4.f901e50d.chunk.js": "/legiondndweb/static/js/4.f901e50d.chunk.js",
+    "static/js/4.f901e50d.chunk.js.map": "/legiondndweb/static/js/4.f901e50d.chunk.js.map",
+    "index.html": "/legiondndweb/index.html",
+    "static/css/2.cc5dc1cf.chunk.css.map": "/legiondndweb/static/css/2.cc5dc1cf.chunk.css.map",
+    "static/css/main.ed7f6f25.chunk.css.map": "/legiondndweb/static/css/main.ed7f6f25.chunk.css.map",
+    "static/js/3.57569a9e.chunk.js.LICENSE.txt": "/legiondndweb/static/js/3.57569a9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c246cf9.js",
+    "static/js/3.57569a9e.chunk.js",
+    "static/css/main.ed7f6f25.chunk.css",
+    "static/js/main.b4f978dd.chunk.js"
+  ]
+}

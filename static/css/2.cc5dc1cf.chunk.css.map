@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/SocialLinks/SocialLinks.module.scss"],"names":[],"mappings":"AAAA,gCACI,kBAAA","file":"2.cc5dc1cf.chunk.css","sourcesContent":[".SocialLinks {\n    letter-spacing: 3px;\n}"]}
