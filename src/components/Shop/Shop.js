@@ -4,7 +4,6 @@ import styles from './Shop.module.scss';
 
 const Shop = () => (
   <div className={styles.Shop} data-testid="Shop">
-<section id="shop" className="portfolio">
   <div className="container">
 
     <div className="section-title">
@@ -79,7 +78,6 @@ const Shop = () => (
     </div>
 
   </div>
-</section>
   </div>
 );
 

@@ -4,7 +4,6 @@ import styles from './Testimonials.module.scss';
 
 const Testimonials = () => (
   <div className={styles.Testimonials} data-testid="Testimonials">
-    <section id="testimonials" className="testimonials">
       <div className="container">
 
         <div className="section-title">
@@ -85,7 +84,6 @@ const Testimonials = () => (
         </div>
 
       </div>
-    </section>
   </div>
 );
 
