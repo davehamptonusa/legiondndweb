@@ -36,7 +36,7 @@ class Whole extends Component {
         <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
           <div className="hero-container" data-aos="fade-in">
             <h1>LEGION DND</h1>
-            <p>The More You <span className="typed" data-typed-items="Roll, Role, Troll, Lolz, Laugh, Live, Love"></span></p>
+            <p>The More You <span className="typed" data-typed-items="Roll, Role, Lolz, Live, Laugh, Love"></span></p>
           </div>
         </section>
         <main id="main">
