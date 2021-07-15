@@ -1,5 +1,6 @@
 import Baxter from './baxter';
 import Dave from './dave';
+import Taylor from './taylor';
 const players = 
     {
         "dave": Dave,
@@ -260,40 +261,7 @@ const players =
                 }
             }
         },
-        "taylor": {
-            "pageLink": "taylor",
-            "icon": "fas fa-fish",
-            "firstName": "Taylor",
-            "name": "Taylor Gledhill",
-            "title": "Pele 'LeTrout' Cyclone - Half Aquatic Elf Rogue",
-            "links": [
-                
-            ],
-            "about": "brb",
-            "stats":[
-                
-            ],
-            "bio": "",
-            "imgBefore": "img/taylor.jpg",
-            "imgAfter": "img/taylor.jpg",
-            "facts": {
-                "factIntro": "",
-                "list":[
-
-                ]
-            },
-            "scores": {
-                "intro": "",
-                "abilities": {
-                    "strength": 2,
-                    "dexterity": 2,
-                    "constitution": 2,
-                    "intelligence": 2,
-                    "wisdom": 2,
-                    "charisma": 2
-                }
-            }
-        },
+        "taylor": Taylor,
         "terri": {
             "pageLink": "terri",
             "icon": "fas fa-dragon",
